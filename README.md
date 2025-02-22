@@ -40,5 +40,3 @@
 💬 **DM me if you want to chat strategy, build something cool, or brainstorm over coffee.**  
 
 ---
-
-This version keeps it **engaging, personality-driven, and high-value**—while still **keeping it professional and tech-focused**. 🚀 Let me know if you want any refinements!  
