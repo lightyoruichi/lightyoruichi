@@ -54,14 +54,14 @@ export default function SocialLinks() {
       color: "hover:bg-blue-700 hover:text-white",
     },
     {
-      name: "WhatsApp",
-      url: "https://wa.me/60194575096",
+      name: "Anon-Mail",
+      url: "https://dub.sh/vibesniff-feedback",
       icon: <MessageSquare className="h-5 w-5" />,
       color: "hover:bg-green-500 hover:text-white",
     },
     {
       name: "Email",
-      url: "mailto:harinder.mke@gmail.com",
+      url: "mailto:satnam182@gmail.com",
       icon: <Mail className="h-5 w-5" />,
       color: "hover:bg-orange-500 hover:text-white",
     },
@@ -73,7 +73,7 @@ export default function SocialLinks() {
     },
     {
       name: "Book a Call",
-      url: "#",
+      url: "https://dub.sh/hari-gcal",
       icon: <Calendar className="h-5 w-5" />,
       color: "hover:bg-teal-500 hover:text-white",
     },
