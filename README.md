@@ -4,11 +4,11 @@
 ---
 
 🚀 **About Me:**  
-- 💡 **Founder of** [FuckSwip.es](https://fuckswip.es) – AI-powered, no-BS dating  
+- 💡 **Fractional CMO** [Consulting](https://lightyoruichi.com) – Doing the nomad thing, helping other founders with growth strategy, AI-driven marketing automation, and revenue optimization. Focused on founders/teams facings problems with go-to-market execution, demand generation, and scalable growth systems  
 - 🌱 **Learning & experimenting with** ReactJS, AI-driven automation & full-stack development  
 - 💬 **Ask me about:** Marketing automation, AI workflows, WordPress, & esports growth  
-- 📧 **Reach out:** **satnam182[at]gmail[dot]com**  
-- 📄 **My CV & past work:** [View Here](https://docs.google.com/document/d/1CA2VRucPYuO1e6Bj88yiDiNJkj9fS8iZc7HQ-v-QT6Q/edit?usp=sharing)  
+- 📧 **Reach out:** **[lightyoruichi.com](https://lightyoruichi.com)**  
+- 📄 **My CV & past work:** [View Here](https://dub.sh/2L9ocQb)  
 - ⚡ **Fun Fact:** If I’m not deep-diving into growth hacking or coding, I’m probably reading Wuxia novels or **breaking down game metas**  
 
 ---
@@ -28,7 +28,7 @@
 
 ### **🤝 Connect With Me:**  
 <p align="left">
-  <a href="https://twitter.com/lightyoruichi" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white" /></a>
+  <a href="https://x/lightyoruichi" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white" /></a>
   <a href="https://linkedin.com/in/lightyoruichi" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" /></a>
   <a href="https://stackoverflow.com/users/satnam182" target="_blank"><img src="https://img.shields.io/badge/StackOverflow-F58025?logo=stackoverflow&logoColor=white" /></a>
   <a href="https://instagram.com/lightyoruichi" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white" /></a>
