@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://harindersingh.com",
+    canonical: "https://lightyoruichi.com",
   },
     generator: 'v0.dev'
 }
@@ -42,10 +42,10 @@ export default function RootLayout({
               "@type": "Person",
               name: "Harinder Singh",
               jobTitle: "Growth & AI-Driven Marketing Strategist",
-              url: "https://harindersingh.com",
+              url: "https://lightyoruichi.com",
               sameAs: [
                 "https://linkedin.com/in/lightyoruichi",
-                "https://twitter.com/lightyoruichi",
+                "https://x.com/lightyoruichi",
                 "https://github.com/lightyoruichi",
               ],
             }),
