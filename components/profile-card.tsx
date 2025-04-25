@@ -52,11 +52,11 @@ export default function ProfileCard() {
     ],
     experience: [
       {
-        role: "Founder",
-        company: "FuckSwip.es",
+        role: "Fractional CMO/Growth",
+        company: "Consulting",
         period: "Current",
         description:
-          "AI-driven dating platform focused on meaningful connections by eliminating swipe fatigue and low-quality matches.",
+          "Doing the nomad thing, helping other founders with growth strategy, AI-driven marketing automation, and revenue optimization. Focused on founders/teams facings problems with go-to-market execution, demand generation, and scalable growth systems ",
       },
       {
         role: "Digital Marketing Manager",
