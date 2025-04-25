@@ -1,5 +1,5 @@
 <h1 align="center">Hey 👋, I'm Harinder</h1>
-<h3 align="center">I build revenue engines with code, data, and AI</h3>
+<h3 align="center">I focus on creating efficient, scalable growth systems backed by data, technology, behavioral science and automation. If you're looking to improve customer acquisition, streamline marketing operations, or explore AI-driven solutions, feel free to reach out.</h3>
 
 ---
 
