@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }} - Harinder Singh{% endblock %}
+{% block meta_description %}{{ meta_description }}{% endblock %}
+
+{% block content %}
+<article class="prose lg:prose-xl dark:prose-invert max-w-none">
+    <header class="mb-8 text-center">
+        <h1 class="text-4xl font-bold">{{ persona.title }}</h1>
+        <p class="text-xl text-muted-foreground italic">"{{ persona.tagline }}"</p>
+    </header>
+
+    <section class="mb-8 p-6 bg-card border border-border rounded-lg">
+        <h2 class="text-2xl font-semibold mb-3">About The Hacker</h2>
+        <p>{{ persona.about }}</p>
+    </section>
+
+    {% for section_item in persona.sections %}
+    <section class="mb-8 p-6 bg-card border border-border rounded-lg">
+        <h3 class="text-xl font-semibold mb-3">{{ section_item.title }}</h3>
+        {% if section_item.content %}
+        <p>{{ section_item.content }}</p>
+        {% endif %}
+        {% if section_item.repo_url %}
+            <p class="mt-2">
+                <a href="{{ section_item.repo_url }}" target="_blank" rel="noopener noreferrer" class="fk-button fk-button-outline">View Repository</a>
+            </p>
+        {% endif %}
+        {% if section_item.tech_stack %}
+            <div class="mt-3">
+                <h4 class="font-semibold">Tech Stack:</h4>
+                <div class="flex flex-wrap gap-2 mt-2">
+                    {% for tech in section_item.tech_stack %}
+                    <span class="fk-badge fk-badge-secondary" tabindex="0">{{ tech }}</span> <!-- Example Franken UI badge -->
+                    {% endfor %}
+                </div>
+            </div>
+        {% endif %}
+        {% if section_item.stack %}
+             <div class="mt-3">
+                <div class="flex flex-wrap gap-2 mt-2">
+                    {% for tech in section_item.stack %}
+                    <span class="fk-badge fk-badge-secondary" tabindex="0">{{ tech }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+        {% endif %}
+    </section>
+    {% endfor %}
+
+    {% if persona.links %}
+    <section class="mb-8 p-6 bg-card border border-border rounded-lg">
+        <h3 class="text-xl font-semibold mb-3">Links</h3>
+        <ul class="list-disc pl-5 mt-2">
+        {% for link in persona.links %}
+            <li><a href="{{ link.url }}" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">{{ link.text }}</a></li>
+        {% endfor %}
+        </ul>
+    </section>
+    {% endif %}
+    
+    {% if persona.quote %}
+    <blockquote class="border-l-4 border-primary pl-4 italic text-muted-foreground my-8">
+        {{ persona.quote }}
+    </blockquote>
+    {% endif %}
+
+    <div class="text-center mt-12">
+        <a href="/" hx-get="/" hx-target="#main-content" hx-push-url="true" class="fk-button fk-button-outline">Back to Home</a>
+    </div>
+
+</article>
+{% endblock %} 

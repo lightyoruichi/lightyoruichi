@@ -1,0 +1,128 @@
+{
+  "siteTitle": "Harinder Singh | Monk, Hacker, Strategist",
+  "homePage": {
+    "heroLine": "I'm Harinder. I build, I break, I market. Pick your poison.",
+    "metaDescription": "Harinder Singh - a multifaceted professional exploring the intersections of personal growth (Monk), technology (Hacker), and marketing strategy (Strategist)."
+  },
+  "personas": {
+    "monk": {
+      "title": "The Monk",
+      "tagline": "Wandering strategist in exile.",
+      "metaDescription": "Explore Harinder Singh's personal side: wuxia, philosophy, reading, gaming, and creative pursuits.",
+      "about": "A short bio with a wuxia/philosophy/anime twist...",
+      "sections": [
+        {
+          "title": "Wuxia & Musings",
+          "content": "Exploring themes from Wuxia novels, personal philosophies...",
+          "links": [
+            { "text": "My Substack", "url": "https://substack.com/@lightyoruichi" }
+          ]
+        },
+        {
+          "title": "Book Shelf",
+          "content": "Currently reading and all-time favorites (Daoist texts, cyberpunk, growth bibles).",
+          "books": [
+            { "title": "Book Title 1", "author": "Author 1", "notes": "Brief thoughts..." },
+            { "title": "Book Title 2", "author": "Author 2", "notes": "Brief thoughts..." }
+          ]
+        },
+        {
+          "title": "Gallery & Gaming",
+          "content": "Visual snippets: PlayStation tattoo, travel, Chiang Mai shots. My gaming profiles.",
+          "images": [
+            { "src": "/static/img/ps_tattoo.jpg", "alt": "PlayStation Tattoo" },
+            { "src": "/static/img/travel_chiangmai.jpg", "alt": "Travel - Chiang Mai" }
+          ],
+          "gamingLinks": [
+            { "platform": "PlayStation", "id": "lightyoruichi" },
+            { "platform": "Steam", "url": "https://steamcommunity.com/id/lightyoruichi/" },
+            { "platform": "Epic Games", "url": "https://store.epicgames.com/u/f3a1d12650a34a0083bb2f159cea3c1a" }
+          ]
+        }
+      ],
+      "contact": {
+        "text": "Buy me a tea, not a beer.",
+        "link": "mailto:harinder.mke@gmail.com?subject=Tea with the Monk"
+      },
+      "quote": "The journey of a thousand miles begins beneath one's feet. — Lao Tzu"
+    },
+    "hacker": {
+      "title": "The Hacker",
+      "tagline": "Code is my side quest. Speedruns only.",
+      "metaDescription": "Delve into Harinder Singh's tech world: coding projects, tech stack, and open-source contributions.",
+      "about": "Passionate about building and breaking things with code. Always learning, always experimenting.",
+      "sections": [
+        {
+          "title": "Featured Project: Personal Portfolio (This Site!)",
+          "content": "This website itself is an ongoing project, built with FastAPI, HTMX, and Tailwind CSS. It's a testament to lean, efficient web development.",
+          "repo_url": "https://github.com/lightyoruichi/lightyoruichi"
+        },
+        {
+          "title": "Previous Project: lightyoruichi.com (Next.js)",
+          "content": "My previous portfolio site, built with Next.js, React, and Tailwind CSS, showcasing my journey with modern JavaScript frameworks. [Currently live at lightyoruichi.com, will be replaced by this FastAPI version]",
+          "tech_stack": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Vercel"]
+        },
+        {
+          "title": "Core Tech Stack",
+          "stack": ["Python (FastAPI)", "HTMX", "JavaScript", "HTML/CSS", "Tailwind CSS", "ReactJS", "Node.js", "WordPress", "SQL", "PHP", "LAMP", "AI Tools", "Zapier", "GA4", "Marketing Automation"]
+        },
+        {
+          "title": "Productivity & Tools",
+          "content": "Exploring tools like n8n, Retool, OpenRouter for automation and efficient workflows. (More details to be added)"
+        }
+      ],
+      "links": [
+        { "text": "GitHub Profile", "url": "https://github.com/lightyoruichi" }
+      ],
+      "quote": "Any sufficiently advanced technology is indistinguishable from magic. — Arthur C. Clarke"
+    },
+    "strategist": {
+      "title": "The Strategist",
+      "tagline": "Data-driven growth, no BS.",
+      "metaDescription": "Discover Harinder Singh's expertise in marketing: growth strategies, AI-driven automation, and revenue optimization.",
+      "about": "I focus on creating efficient, scalable growth systems backed by data, technology, behavioral science and automation.",
+      "sections": [
+        {
+          "title": "Key Achievements & Case Studies",
+          "achievements": [
+            "Scaled organic traffic from 0 to 210K visitors/month (Details...)",
+            "Increased lead generation by 10x using AI sales agents (Details...)",
+            "Improved eCommerce conversion rates by 250% (Details...)",
+            "Reduced customer acquisition costs by 30% (Details...)"
+          ]
+        },
+        {
+          "title": "Experience Highlights",
+          "experience": [
+            { "role": "Fractional CMO/Growth", "company": "Consulting", "period": "Current", "description": "Doing the nomad thing, helping other founders with growth strategy, AI-driven marketing automation, and revenue optimization. Focused on founders/teams facings problems with go-to-market execution, demand generation, and scalable growth systems." },
+            { "role": "Digital Marketing Manager", "company": "JS Morlu", "period": "2020-2023", "description": "Led SEO, AI automation, and conversion optimization initiatives." },
+            { "role": "Digital Strategist", "company": "Galaxy Racer", "period": "2018-2020", "description": "Managed growth for esports and gaming brands." }
+          ]
+        },
+        {
+          "title": "Frameworks & Playbooks",
+          "content": "Sharing insights on teardown formats, funnel experiments, SEO contests, etc. (Links to public playbooks or posts to be added)"
+        }
+      ],
+      "contact": {
+        "text": "Need traffic, traction, or teardown? Let's talk.",
+        "link": "https://dub.sh/hari-gcal"
+      },
+      "quote": "Strategy is about making choices, trade-offs; it's about deliberately choosing to be different. — Michael Porter"
+    }
+  },
+  "socialLinks": [
+    { "name": "Instagram", "url": "https://instagram.com/lightyoruichi" },
+    { "name": "Twitter/X", "url": "https://x.com/lightyoruichi" },
+    { "name": "YouTube", "url": "https://youtube.com/lightyoruichi" },
+    { "name": "Facebook", "url": "https://facebook.com/lightyoruichi" },
+    { "name": "LinkedIn", "url": "https://linkedin.com/in/lightyoruichi" },
+    { "name": "Anon-Mail", "url": "https://dub.sh/vibesniff-feedback" },
+    { "name": "Email", "url": "mailto:satnam182@gmail.com" },
+    { "name": "CV", "url": "https://dub.sh/2L9ocQb" },
+    { "name": "StackOverflow", "url": "https://stackoverflow.com/users/satnam182" }
+  ],
+  "footer": {
+    "copyright": "© {current_year} Harinder Singh. All rights reserved."
+  }
+} 

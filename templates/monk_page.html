@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }} - Harinder Singh{% endblock %}
+{% block meta_description %}{{ meta_description }}{% endblock %}
+
+{% block content %}
+<article class="prose lg:prose-xl dark:prose-invert max-w-none"> <!-- Using Tailwind Typography plugin might be good here -->
+    <header class="mb-8 text-center">
+        <h1 class="text-4xl font-bold">{{ persona.title }}</h1>
+        <p class="text-xl text-muted-foreground italic">"{{ persona.tagline }}"</p>
+    </header>
+
+    <section class="mb-8 p-6 bg-card border border-border rounded-lg">
+        <h2 class="text-2xl font-semibold mb-3">About The Monk</h2>
+        <p>{{ persona.about }}</p>
+    </section>
+
+    {% for section_item in persona.sections %}
+    <section class="mb-8 p-6 bg-card border border-border rounded-lg">
+        <h3 class="text-xl font-semibold mb-3">{{ section_item.title }}</h3>
+        {% if section_item.content %}
+        <p>{{ section_item.content }}</p>
+        {% endif %}
+        {% if section_item.links %}
+            <ul class="list-disc pl-5 mt-2">
+            {% for link in section_item.links %}
+                <li><a href="{{ link.url }}" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">{{ link.text }}</a></li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+        {% if section_item.books %}
+            <div class="grid md:grid-cols-2 gap-4 mt-4">
+            {% for book in section_item.books %}
+                <div class="fk-card p-4 rounded border border-border"> <!-- Franken UI Card -->
+                    <h4 class="font-semibold">{{ book.title }}</h4>
+                    <p class="text-sm text-muted-foreground">By: {{ book.author }}</p>
+                    <p class="text-sm mt-1">{{ book.notes }}</p>
+                </div>
+            {% endfor %}
+            </div>
+        {% endif %}
+        {% if section_item.images %}
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4">
+            {% for image in section_item.images %}
+                <img src="{{ image.src }}" alt="{{ image.alt }}" class="fk-card rounded-lg shadow-md w-full h-auto object-cover" loading="lazy">
+            {% endfor %}
+            </div>
+        {% endif %}
+         {% if section_item.gamingLinks %}
+            <h4 class="font-semibold mt-3">Gaming Profiles:</h4>
+            <ul class="list-disc pl-5 mt-2">
+            {% for link in section_item.gamingLinks %}
+                <li>{{link.platform}}: {% if link.url %}<a href="{{ link.url }}" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">{{ link.id | default(link.url) }}</a>{% else %}{{ link.id }}{% endif %}</li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+    </section>
+    {% endfor %}
+    
+    {% if persona.contact %}
+    <section class="mb-8 p-6 bg-primary/10 border border-primary rounded-lg text-center">
+        <p class="text-lg">{{ persona.contact.text }}</p>
+        <a href="{{ persona.contact.link }}" class="fk-button fk-button-secondary mt-3">Contact</a>
+    </section>
+    {% endif %}
+
+    {% if persona.quote %}
+    <blockquote class="border-l-4 border-primary pl-4 italic text-muted-foreground my-8">
+        {{ persona.quote }}
+    </blockquote>
+    {% endif %}
+
+    <div class="text-center mt-12">
+        <a href="/" hx-get="/" hx-target="#main-content" hx-push-url="true" class="fk-button fk-button-outline">Back to Home</a>
+    </div>
+
+</article>
+{% endblock %} 

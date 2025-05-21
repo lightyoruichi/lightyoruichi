@@ -1,0 +1,15 @@
+<article class="fk-card group h-full flex flex-col divide-y text-sm text-center divide-gray-400 px-2 bg-card border border-border rounded-lg shadow-md transition-transform hover:scale-105">
+  <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=facearea&w=400&h=200&facepad=2" alt="Inspiration image" class="w-full h-32 object-cover rounded-t-lg mb-2" loading="lazy">
+  <div class="sm:pb-8 pb-3 num">{{ item.num }}</div>
+  <div class="sm:py-3 py-1.5 uppercase font-light">{{ item.author }}</div>
+  <div class="sm:h-28 h-20 flex items-center text-xs">
+    <p class="break-words font-light whitespace-pre-line mx-auto w-28">{{ item.tagline }}</p>
+  </div>
+  <div class="sm:py-3 py-1.5 uppercase">{{ item.page }}</div>
+  <div class="py-8 text-9xl relative">
+    <q class="text-xs absolute sm:top-28 top-24 left-[8%] max-w-[84%]">
+      {{ item.quote }}
+    </q>
+    <div class="sm:pt-36 pt-32 sm:pb-0 pb-1 uppercase w-full max-w-full -scale-100 stretch bg-black sm:group-hover:-translate-y-56 group-hover:-translate-y-44 group-hover:transition-transform flex items-center">{{ item.footer }}</div>
+  </div>
+</article> 

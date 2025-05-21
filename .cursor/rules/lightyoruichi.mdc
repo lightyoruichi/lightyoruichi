@@ -1,0 +1,80 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+{
+  "project": "Harinder Singh — Personal Portfolio",
+  "tech_stack": [
+    "FastAPI",
+    "HTMX",
+    "Tailwind CSS",
+    "Franken UI",
+    "Jinja2",
+    "JSON"
+  ],
+  "content_management": {
+    "primary_source": "data/hari.json",
+    "description": "All persona and inspiration content is managed in this file. No hardcoded content in templates."
+  },
+  "custom commands": {
+    "order 666": "proceed and execute these autonomously and only come back once all of the task has been completed with logics function and design written with the focus of ux and inttuitive design",
+    "update doc": "update all of the necessary doc with latest doc standards but within limit."
+  },
+  "templates": {
+    "engine": "Jinja2",
+    "directory": "templates/",
+    "base_template": "base.html",
+    "partials": "Use Jinja2 includes/macros for reusable UI blocks."
+  },
+  "static_assets": {
+    "css": "static/css/",
+    "js": "static/js/",
+    "img": "static/img/",
+    "tailwind": {
+      "input": "input.css",
+      "output": "output.css",
+      "config": "tailwind.config.js"
+    }
+  },
+  "ui_components": {
+    "franken_ui": "Use Franken UI components for all cards, buttons, and layouts where possible.",
+    "tailwind": "Use Tailwind utility classes for custom styling and layout."
+  },
+  "routing": {
+    "framework": "FastAPI",
+    "templates_rendered": "All routes render Jinja2 templates with context from JSON files."
+  },
+  "testing": {
+    "required": true,
+    "description": "Automated tests for all routes and template rendering. Use pytest or similar."
+  },
+  "accessibility": {
+    "mobile_first": true,
+    "a11y": "All pages must be accessible and responsive."
+  },
+  "deployment": {
+    "platforms": ["Vercel", "GitHub Pages (static export)"],
+    "config_files": ["vercel.json"]
+  },
+  "conventions": {
+    "no_js_frameworks": "Do not use React, Vue, or similar frameworks.",
+    "separation_of_content_and_code": "Strictly separate content (JSON) from code (Python, HTML).",
+    "themeable": "Support for easy theming (CSS variables, Tailwind config)."
+  },
+  "file_naming": {
+    "snake_case": "For Python files and directories.",
+    "kebab_case": "For static assets (css, js, img).",
+    "lowercase": "For all file and directory names."
+  },
+  "documentation": {
+    "files": [
+      "README.md",
+      "prd.md",
+      "ROADMAP_CHANGELOG.md",
+      "context.md",
+      "content.md"
+    ],
+    "requirement": "Keep all documentation up to date with major changes."
+  }
+}

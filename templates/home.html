@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }}{% endblock %}
+{% block meta_description %}{{ meta_description }}{% endblock %}
+
+{% block content %}
+<div class="relative py-8 sm:py-8 xl:py-3 min-w-screen min-h-screen flex items-center justify-center text-white">
+  <div class="grid border-x lg:grid-cols-6 sm:grid-cols-3 grid-cols-2 lg:divide-x divide-solid divide-white">
+    {% for item in inspirations %}
+      {% include "partials/inspiration_card.html" %}
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}
+
+{% block extra_styles %}
+<style>
+@font-face {
+  font-family: "Roboto Flex";
+  src: url("https://digitalupgrade.com/images/misc/RobotoFlex-VariableFont_GRADXTRAYOPQYTASYTDEYTFIYTLCYTUCopszslntwdthwght.woff2") format("woff2");
+}
+body {
+  font-family: 'Roboto Flex', sans-serif;
+}
+.group-hover\:transition-transform {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  animation-direction: alternate;
+}
+.num {
+  font-size: 10rem;
+  line-height: 0.9;
+  font-weight: 550;
+  font-variation-settings:  'wdth' 35, 'YTFI' 788;
+}
+.stretch {
+  font-weight: 500;
+  font-variation-settings: 'wdth' 35;
+  writing-mode: vertical-rl;
+}
+</style>
+{% endblock %} 

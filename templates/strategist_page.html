@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }} - Harinder Singh{% endblock %}
+{% block meta_description %}{{ meta_description }}{% endblock %}
+
+{% block content %}
+<article class="prose lg:prose-xl dark:prose-invert max-w-none">
+    <header class="mb-8 text-center">
+        <h1 class="text-4xl font-bold">{{ persona.title }}</h1>
+        <p class="text-xl text-muted-foreground italic">"{{ persona.tagline }}"</p>
+    </header>
+
+    <section class="mb-8 p-6 bg-card border border-border rounded-lg">
+        <h2 class="text-2xl font-semibold mb-3">About The Strategist</h2>
+        <p>{{ persona.about }}</p>
+    </section>
+
+    {% for section_item in persona.sections %}
+    <section class="mb-8 p-6 bg-card border border-border rounded-lg">
+        <h3 class="text-xl font-semibold mb-3">{{ section_item.title }}</h3>
+        {% if section_item.content %}
+        <p>{{ section_item.content }}</p>
+        {% endif %}
+        {% if section_item.achievements %}
+            <ul class="list-disc pl-5 mt-2 space-y-1">
+            {% for achievement in section_item.achievements %}
+                <li>{{ achievement }}</li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+        {% if section_item.experience %}
+            <div class="space-y-4 mt-4">
+            {% for exp in section_item.experience %}
+                <div class="fk-card p-4 rounded border border-border shadow-md" tabindex="0"> <!-- Franken UI Card -->
+                    <h4 class="font-semibold">{{ exp.role }} at {{ exp.company }}</h4>
+                    <p class="text-sm text-muted-foreground">{{ exp.period }}</p>
+                    <p class="text-sm mt-1">{{ exp.description }}</p>
+                </div>
+            {% endfor %}
+            </div>
+        {% endif %}
+    </section>
+    {% endfor %}
+    
+    {% if persona.contact %}
+    <section class="mb-8 p-6 bg-primary/10 border border-primary rounded-lg text-center">
+        <p class="text-lg">{{ persona.contact.text }}</p>
+        <a href="{{ persona.contact.link }}" target="_blank" rel="noopener noreferrer" class="fk-button fk-button-secondary mt-3">Let's Talk</a>
+    </section>
+    {% endif %}
+
+    {% if persona.quote %}
+    <blockquote class="border-l-4 border-primary pl-4 italic text-muted-foreground my-8">
+        {{ persona.quote }}
+    </blockquote>
+    {% endif %}
+
+    <div class="text-center mt-12">
+        <a href="/" hx-get="/" hx-target="#main-content" hx-push-url="true" class="fk-button fk-button-outline">Back to Home</a>
+    </div>
+
+</article>
+{% endblock %} 
