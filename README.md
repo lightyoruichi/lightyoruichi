@@ -1,11 +1,11 @@
-// don't touch this.
+// can't touch this.
 <h1 align="center">Hey 👋, I'm Harinder</h1>
 <h3 align="center">I focus on creating efficient, scalable growth systems backed by data, technology, behavioral science and automation. If you're looking to improve customer acquisition, streamline marketing operations, or explore AI-driven solutions, feel free to reach out.</h3>
 
 ---
 
 🚀 **About Me:**  
-- 💡 **Fractional CMO** [Consulting](https://lightyoruichi.com) – Doing the nomad thing, helping other founders with growth strategy, AI-driven marketing automation, and revenue optimization. Focused on founders/teams facings problems with go-to-market execution, demand generation, and scalable growth systems  
+- 💡 **Growth Operator**@[MIMR Growth Lab](https://mimrgrowthlab.com) – Doing the nomad thing, helping other founders with growth strategy, AI-driven marketing automation, and revenue optimization. Focused on founders/teams facings problems with go-to-market execution, demand generation, and scalable growth systems  
 - 🌱 **Learning & experimenting with** ReactJS, AI-driven automation & full-stack development  
 - 💬 **Ask me about:** Marketing automation, AI workflows, WordPress, & esports growth  
 - 📧 **Reach out:** **[lightyoruichi.com](https://lightyoruichi.com)**  
@@ -39,28 +39,5 @@
 
 🔥 **Always up for conversations about AI, growth marketing, automation, or just gaming metas.**  
 💬 **DM me if you want to chat strategy, build something cool, or brainstorm over coffee.**  
-
----
-
-## Testing
-
-To run automated tests for all routes and template rendering:
-
-```bash
-pytest
-```
-
-## Deployment (Vercel)
-
-- Ensure your `vercel.json` is present and configured.
-- Push your code to your GitHub repository.
-- Connect the repo to Vercel and deploy.
-- Static assets and FastAPI backend are supported via Vercel's Python backend configuration.
-
-## Known Warnings & Migration Notes
-
-- You are using a deprecated FastAPI event system. This project now uses the new FastAPI lifespan event system (see main.py). If you see warnings about @app.on_event("startup"), they are resolved.
-- There was a Starlette template warning about parameter order for TemplateResponse. All calls now use the new signature: TemplateResponse(request, name, context).
-- All routes and template rendering are covered by robust automated tests, including edge cases (missing JSON, empty personas, missing fields). All tests are green (100% pass).
 
 ---
