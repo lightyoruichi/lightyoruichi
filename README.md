@@ -1,43 +1,40 @@
-// can't touch this.
-<h1 align="center">Hey 👋, I'm Harinder</h1>
-<h3 align="center">I focus on creating efficient, scalable growth systems backed by data, technology, behavioral science and automation. If you're looking to improve customer acquisition, streamline marketing operations, or explore AI-driven solutions, feel free to reach out.</h3>
+<h1>Started coding at 12 to build a Game Boy emulator my dad couldn't afford. Never stopped.</h1>
+
+<p>Growth operator & full-stack builder. I find where money leaks, fix it, then build the engine that keeps it from leaking again.</p>
 
 ---
 
-🚀 **About Me:**  
-- 💡 **Growth Operator**@[MIMR Growth Lab](https://mimrgrowthlab.com) – Doing the nomad thing, helping other founders with growth strategy, AI-driven marketing automation, and revenue optimization. Focused on founders/teams facings problems with go-to-market execution, demand generation, and scalable growth systems  
-- 🌱 **Learning & experimenting with** ReactJS, AI-driven automation & full-stack development  
-- 💬 **Ask me about:** Marketing automation, AI workflows, WordPress, & esports growth  
-- 📧 **Reach out:** **[lightyoruichi.com](https://lightyoruichi.com)**  
-- 📄 **My CV & past work:** [View Here](https://dub.sh/2L9ocQb)  
-- ⚡ **Fun Fact:** If I'm not deep-diving into growth hacking or coding, I'm probably reading Wuxia novels or **breaking down game metas**  
+- **Currently building** — [MIMR Growth Lab](https://mimrgrowthlab.com) — revenue ops & GTM systems for B2B startups
+- **Based** — Ipoh, Malaysia (nomadic, MYT)
+- **Ask me about** — growth systems, marketing automation, AI workflows, SEO, esports
+- **Reach me** — [lightyoruichi.com](https://lightyoruichi.com) · [x.com/lightyoruichi](https://x.com/lightyoruichi)
 
 ---
 
-### **🛠️ Tech, Tools & Stack:**  
-<p align="left">
-  <img src="https://img.shields.io/badge/ReactJS-61DAFB?logo=react&logoColor=white" />
-  <img src="https://img.shields.io/badge/WordPress-21759B?logo=wordpress&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Marketing Automation-FFD700?logo=google-ads&logoColor=white" />
-  <img src="https://img.shields.io/badge/Wuxia Literature-DC143C" />
+### Stack
+
+![JS](https://img.shields.io/badge/JavaScript·React·Node-F7DF1E?logoColor=000&style=flat)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat)
+![PHP](https://img.shields.io/badge/PHP·Ruby·SQL-777BB4?logo=php&logoColor=white&style=flat)
+![Meta CAPI](https://img.shields.io/badge/Meta_CAPI·GTM·GA4-0866FF?logo=meta&logoColor=white&style=flat)
+![n8n](https://img.shields.io/badge/n8n·Make·Zapier-EA4B71?logo=n8n&logoColor=white&style=flat)
+![Supabase](https://img.shields.io/badge/Supabase·Redis-3ECF8E?logo=supabase&logoColor=white&style=flat)
+![PostHog](https://img.shields.io/badge/PostHog·Mixpanel-000000?logo=posthog&logoColor=white&style=flat)
+
+---
+
+### Connect
+
+<p>
+  <a href="https://linkedin.com/in/lightyoruichi"><img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=flat" /></a>
+  <a href="https://x.com/lightyoruichi"><img src="https://img.shields.io/badge/X-000000?logo=x&logoColor=white&style=flat" /></a>
+  <a href="https://www.threads.net/@lightyoruichi"><img src="https://img.shields.io/badge/Threads-000000?logo=threads&logoColor=white&style=flat" /></a>
+  <a href="https://substack.com/@lightyoruichi"><img src="https://img.shields.io/badge/Substack-FF6719?logo=substack&logoColor=white&style=flat" /></a>
+  <a href="https://instagram.com/lightyoruichi"><img src="https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white&style=flat" /></a>
+  <a href="https://stackoverflow.com/users/satnam182"><img src="https://img.shields.io/badge/Stack_Overflow-F58025?logo=stackoverflow&logoColor=white&style=flat" /></a>
+  <a href="https://lightyoruichi.com/work"><img src="https://img.shields.io/badge/Case_Studies_(DM_for_access)-lightgrey?logo=files&logoColor=white&style=flat" /></a>
 </p>
 
 ---
 
-### **🤝 Connect With Me:**  
-<p align="left">
-  <a href="https://x/lightyoruichi" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/lightyoruichi" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" /></a>
-  <a href="https://stackoverflow.com/users/satnam182" target="_blank"><img src="https://img.shields.io/badge/StackOverflow-F58025?logo=stackoverflow&logoColor=white" /></a>
-  <a href="https://instagram.com/lightyoruichi" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white" /></a>
-</p>
-
----
-
-🔥 **Always up for conversations about AI, growth marketing, automation, or just gaming metas.**  
-💬 **DM me if you want to chat strategy, build something cool, or brainstorm over coffee.**  
-
----
+*7 spoken languages · 15+ readable · Wuxia reader · game meta nerd*
